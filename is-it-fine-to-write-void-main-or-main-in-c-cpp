@@ -1,0 +1,16 @@
+//    incorrect implementation of cpp main function 
+/*
+void main(){
+    // Body
+}
+*/
+// conforming implementation accepts the formats
+int main(){ 
+    // Body
+}
+
+/*
+int main(int argc, char* argv[]){
+    // Body
+}
+*/
