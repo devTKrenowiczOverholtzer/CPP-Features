@@ -1,0 +1,28 @@
+// Difference between int main() and int main(void)
+
+// Program 1 (Compiles and runs fine in C, but not in C++)
+#include <iostream>
+ 
+void fun() {}
+ 
+int main(void)
+{
+    fun(10, "GfG", "GQ");
+ 
+    return 0;
+}
+// This code is contributed by sarajadhav12052009
+
+/*
+// Program 2 (Fails in compilation in both C and C++)
+ 
+void fun(void) {}
+ 
+int main(void)
+{
+    fun(10, "GfG", "GQ");
+ 
+    return 0;
+}
+// This code is contributed by sarajadhav12052009
+*/
